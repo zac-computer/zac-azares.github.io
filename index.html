@@ -1,11 +1,206 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Source+Code+Pro:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        #contact_section {
+            cursor: text;
+            display: inline-block;
+            color: #e91d63;
+            font-family: 'Roboto Condensed', sans-serif;
+            padding: 1rem;
+            line-height: 1.5rem;
+        }
+
+        #name_section {
+            font-family: 'Oswald', sans-serif;
+            padding: 1rem;
+            font-size: 3rem;
+            color: #424242
+        }
+
+        #skills_section {
+            padding: 1rem;
+
+        }
+
+        #experience_section {
+            padding: 1rem;
+
+        }
+
+        #education_section {
+            padding: 1rem;
+
+        }
+
+        .section_title {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.25rem;
+
+
+        }
+
+        .section_list {
+            font-family: 'Source Code Pro', monospace;
+        }
+
+        .linkage {
+            text-decoration: none;
+            text-decoration: none;
+            color: #999999
+        }
+
+        hr {
+            width: 100ex;
+            border-color: black;
+            position: relative;
+            font-size: 0.8rem;
+            border-width: 0.5ex 0 0 0;
+            border-style: solid;
+            border-radius: 20px;
+
+
+        }
+
+        h2 {
+            color: #e91d63;
+            font-size: 1.25rem;
+        }
+
+        h4 {
+            color: #2e4440;
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        i {
+            color: #2e4440;
+            font-weight: 500;
+        }
+
+        body {
+            font-family: 'Source Code Pro', monospace;
+            font-size: 100%;
+            font-size: 1rem;
+            width: 100ex;
+            margin: auto;
+            color: #666666
+        }
+    </style>
+</head>
+
 <body>
-    <div style = "text-align: center; max-width: 333px; margin: auto;">
-        <h1>Hello World</h1>
-        <p>I'm a GitHub Pages placeholder while Zac works on his personal website.</p>
-        <img src="https://picsum.photos/333" alt="Lorem Picsum">
-        <p>I'll be back soon. Mark my words.</p>
+
+    <div style="max-width: 1000px; margin: auto;">
+
+        <div id="contact_section">
+            <p><a class="linkage" href="https://zac.computer" rel="nofollow">zac.computer</a> <br>
+                <a class="linkage" href="https://github.com/zac-azares" rel="nofollow">https://github.com/zac-azares</a>
+                <br>
+                <a hidden class="linkage" href="https://www.linkedin.com/in/zachary-azares-a4348419b"
+                    rel="nofollow">https://www.linkedin.com/in/zachary-azares-a4348419b</a><br hidden>
+                (520) 338-7639 <br>
+                zac@zac.computer
+            </p>
+        </div>
+
+        <div id="name_section">
+            <p>Zac Azares</p>
+            <hr />
+        </div>
+
+        <div id="skills_section">
+            <h1 class="section_title">SKILLS</h1>
+            <ul>
+                <li>Python, Java, C++, C, HTML/CSS, JavaScript, Jquery</li>
+                <li>Linux/GNU, Git, Github, XCode, LaTeX, Jira, Agile</li>
+                <li>SQL, PostGRE, MongoDB, Django, Angular, IBM Watson, H2O, PyTorch</li>
+            </ul>
+        </div>
+
+
+
+        <div id="experience_section">
+            <h1 class="section_title">EXPERIENCE</h1>
+            <h2>Psyche, NASA<i> —
+                    <a hidden class="linkage"
+                        href="https://psyche.asu.edu/get-involved/capstone-projects/predicting-solar-wind-conditions-with-machine-learning-team-plasma/"
+                        rel="nofollow">https://psyche.asu.edu/.../predicting-solar-wind-conditions-with-machine-learning-team-plasma/</a>
+            </h2>
+            <h4>
+                <a class="linkage"
+                    href="https://psyche.asu.edu/get-involved/capstone-projects/predicting-solar-wind-conditions-with-machine-learning-team-plasma/"
+                    rel="nofollow">Predicting Solar Wind Conditions with Machine Learning</a>
+
+
+            </h4>
+            <p>AUG 2019 - MAY 2020</p>
+            <ul>
+                <li>Scraped existing NASA databases to compile solar wind data in a PostgreSQL Database hosted on a
+                    Digital
+                    Ocean Linux droplet</li>
+                <li>Developed a Neural Network model using Python and H2O to discover early predictive indicators for
+                    solar wind changes in unmonitored regions of solar system</li>
+                <li>Worked efficiently on a team using the Scrum Agile framework with weekly deliverables</li>
+            </ul>
+
+            <h2>EPICS, Engineering Projects in Community Service<i> — </i></h2>
+            <h4>
+                <a class="linkage" href="https://appcamp.engineering.asu.edu/2021-epics-high-virtual-showcase/"
+                    rel="nofollow">Water Saving Retrofits & Aquaponics for South Mountain Projects</a>
+
+
+            </h4>
+            <h4 hidden>Water Saving Retrofits & Aquaponics for South Mountain Projects</h4>
+            <p>AUG 2016 - APRIL 2017</p>
+
+            <ul>
+                <li>Designed an educational aquaponics system to teach about nitrogen cycles and resource recycling
+                    with an interdisciplinary team
+                </li>
+                <li>Coded Arduinos to read water sensor measurements and developed a model of water and nutrient flow
+                    through a fluid system using the Waterfall Model
+                </li>
+            </ul>
+
+            <h2>SALUS, University of Arizona<i> — </i></h2>
+            <h4>Developing iOS app prototype for women in dangerous households</h4>
+            <p>JUNE 2018 - MAY 2019</p>
+
+            <ul>
+                <li>Developed proof of concept for an iOS app with MVC and UML diagrams
+                </li>
+                <li>Prototyped app features and design using Swift in XCode
+                </li>
+            </ul>
+
+
+            <p hidden>MONTH 2020 - PRESENT</p>
+
+        </div>
+
+
+
+        <div id="education_section">
+            <h1 class="section_title">EDUCATION</h1>
+            <h2>B.S. in Computer Science, Arizona State University<i> — MAY 2020</i></h2>
+            <ul>
+                <li>IBM Data Science Professional (expected May 2021)</li>
+                <li>Six Sigma Greenbelt (expected May 2021)</li>
+                <li>CompTIA Security+ (expected May 2021)</li>
+                <li>Software QA, Analysis, and Design</li>
+                <li>Machine/Statistical Learning</li>
+                <li>Project Management</li>
+                <li>Engineering Administration</li>
+            </ul>
+        </div>
+
     </div>
 </body>
+
 </html>
